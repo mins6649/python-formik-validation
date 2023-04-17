@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { useFormik } from "formik";
-import * as yup from "yup";
+import { useFormik } from "formik"; //React lib
+import * as yup from "yup"; //used for validation
 export const SignupForm = () => {
   const [customers, setCustomers] = useState([{}]);
   const [refreshPage, setRefreshPage] = useState(false);
